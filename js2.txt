@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+<br>  <p id="show"> Result:</p>
+
+<script>
+String.prototype.isEmpty = function () {
+
+if (this.name == "" || this.name == null)
+   {
+        return true;
+   }   
+   else 
+         return false;
+}
+
+};
+
+
+
+document.getElementById("show").innerHTML="String: Hello:-"
+
+
